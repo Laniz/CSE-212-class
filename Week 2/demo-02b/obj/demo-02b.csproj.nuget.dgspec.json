@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\young\\OneDrive\\Documents\\CSE 212\\Week 2\\demo-02b\\demo-02b.csproj": {}
+    "C:\\Users\\young\\OneDrive\\Documents\\CSE 212 coding\\Week 2\\demo-02b\\demo-02b.csproj": {}
   },
   "projects": {
-    "C:\\Users\\young\\OneDrive\\Documents\\CSE 212\\Week 2\\demo-02b\\demo-02b.csproj": {
+    "C:\\Users\\young\\OneDrive\\Documents\\CSE 212 coding\\Week 2\\demo-02b\\demo-02b.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\young\\OneDrive\\Documents\\CSE 212\\Week 2\\demo-02b\\demo-02b.csproj",
+        "projectUniqueName": "C:\\Users\\young\\OneDrive\\Documents\\CSE 212 coding\\Week 2\\demo-02b\\demo-02b.csproj",
         "projectName": "demo-02b",
-        "projectPath": "C:\\Users\\young\\OneDrive\\Documents\\CSE 212\\Week 2\\demo-02b\\demo-02b.csproj",
+        "projectPath": "C:\\Users\\young\\OneDrive\\Documents\\CSE 212 coding\\Week 2\\demo-02b\\demo-02b.csproj",
         "packagesPath": "C:\\Users\\young\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\young\\OneDrive\\Documents\\CSE 212\\Week 2\\demo-02b\\obj\\",
+        "outputPath": "C:\\Users\\young\\OneDrive\\Documents\\CSE 212 coding\\Week 2\\demo-02b\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\young\\AppData\\Roaming\\NuGet\\NuGet.Config",

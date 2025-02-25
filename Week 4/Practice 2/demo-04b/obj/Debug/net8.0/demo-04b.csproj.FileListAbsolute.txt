@@ -1,0 +1,15 @@
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\bin\Debug\net8.0\demo-04b.exe
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\bin\Debug\net8.0\demo-04b.deps.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\bin\Debug\net8.0\demo-04b.runtimeconfig.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\bin\Debug\net8.0\demo-04b.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\bin\Debug\net8.0\demo-04b.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.AssemblyInfoInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.AssemblyInfo.cs
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.csproj.CoreCompileInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.sourcelink.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\refint\demo-04b.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\demo-04b.genruntimeconfig.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 4\Practice 2\demo-04b\obj\Debug\net8.0\ref\demo-04b.dll

@@ -1,0 +1,15 @@
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\bin\Debug\net8.0\demo-09a-solution.exe
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\bin\Debug\net8.0\demo-09a-solution.deps.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\bin\Debug\net8.0\demo-09a-solution.runtimeconfig.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\bin\Debug\net8.0\demo-09a-solution.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\bin\Debug\net8.0\demo-09a-solution.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.AssemblyInfoInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.AssemblyInfo.cs
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.csproj.CoreCompileInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.sourcelink.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\refint\demo-09a-solution.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\demo-09a-solution.genruntimeconfig.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 9\Prep\Prep 1\demo-09a-solution\obj\Debug\net8.0\ref\demo-09a-solution.dll

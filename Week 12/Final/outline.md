@@ -12,8 +12,10 @@
     3. Tree
 * Contact Information
     Shepherd Ncube
-    
+
 ## II. Stack 
+
+relative path to stacks - Stacks.md
 
 * Introduction
 *  I will introduce stacks here, then explain what a stack is.

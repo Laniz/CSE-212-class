@@ -1,0 +1,15 @@
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\bin\Debug\net9.0\Testing undo function.exe
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\bin\Debug\net9.0\Testing undo function.deps.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\bin\Debug\net9.0\Testing undo function.runtimeconfig.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\bin\Debug\net9.0\Testing undo function.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\bin\Debug\net9.0\Testing undo function.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.AssemblyInfoInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.AssemblyInfo.cs
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.csproj.CoreCompileInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.sourcelink.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\refint\Testing undo function.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\Testing undo function.genruntimeconfig.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 11 testing\New folder\Testing undo function\obj\Debug\net9.0\ref\Testing undo function.dll

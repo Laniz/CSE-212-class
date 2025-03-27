@@ -23,13 +23,13 @@ relative path to stacks - Stacks.md
 
 * Efficiency of common operations
     (I will detail a couple of problems and then explain what is happening in the stacks, I will cover Push, pop, Size, Count (Will possible add more later))
-    
+
     Common operation 1
         Details will go here
 
     Common operation 2
         Details will go here
-    
+
     Common operation 3
         Details go here
 
@@ -38,7 +38,7 @@ relative path to stacks - Stacks.md
 
     *Statement of the problem
         I will state the problem here
-    
+
     *Problem Analaysis
         I will then break down the problem, maybe include pictures here to.
 
@@ -48,7 +48,6 @@ relative path to stacks - Stacks.md
     I will then follow the same format as above and give the reader a problem to solve.
 
     Problem statement
-
 
 ## III. Set
 
@@ -63,7 +62,7 @@ relative path to stacks - Stacks.md
 
     Common operation 2
         Details will go here
-    
+
     Common operation 3
         Details go here
 
@@ -74,7 +73,7 @@ relative path to stacks - Stacks.md
 
     *Statement of the problem
         I will state the problem here
-    
+
     *Problem Analaysis
         I will then break down the problem, maybe include pictures here to.
 
@@ -99,7 +98,7 @@ relative path to stacks - Stacks.md
 
     Common operation 2
         Details will go here
-    
+
     Common operation 3
         Details go here
 * Example Problem

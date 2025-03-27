@@ -18,7 +18,8 @@
 relative path to stacks - Stacks.md
 
 * Introduction
-*  I will introduce stacks here, then explain what a stack is.
+
+* I will introduce stacks here, then explain what a stack is.
 
 * Efficiency of common operations
     (I will detail a couple of problems and then explain what is happening in the stacks, I will cover Push, pop, Size, Count (Will possible add more later))
@@ -50,6 +51,7 @@ relative path to stacks - Stacks.md
 
 
 ## III. Set
+
 * Introduction
     I will follow the same format as above. Introduce Sets and explain how to use them
 
@@ -84,6 +86,7 @@ relative path to stacks - Stacks.md
     Problem statement
 
 ## IV. Tree
+
 * Introduction
     This will also pretty much follow the same format as the other problems.
 * ...
@@ -119,8 +122,3 @@ relative path to stacks - Stacks.md
     I will then follow the same format as above and give the reader a problem to solve.
 
     Problem statement 
-
-
-
-
-

@@ -166,19 +166,16 @@ class TextEditor
     static void Type(string newText)
     {
         //Add your code here
-        pass
     }
 
     static void Undo()
     {
         //Add your code here
-        pass
     }
 
     static void Redo()
     {
         //Add your code here
-        pass
     }
 
     static void Main()
@@ -209,3 +206,5 @@ class TextEditor
     }
 }
 ```
+
+Once you have attempted the above problem you can find the solution by [clicking here](Stacks\Program.cs)

@@ -12,7 +12,7 @@
 * Example Problem
 * Problem to Solve
 
-## III. [Sets](sets.md)
+## III. [Linked List](Linked_list.md)
 
 * Introduction
 * Efficiency of Common Operations

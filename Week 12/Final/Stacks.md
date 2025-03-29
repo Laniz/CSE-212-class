@@ -10,7 +10,7 @@ This property enables interesting functionalities. Recursion is made possible by
 
 ---
 
-Common Operations
+### Common Operations
 
 ## Push
 

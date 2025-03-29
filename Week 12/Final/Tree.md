@@ -1,0 +1,273 @@
+# Introduction to Trees
+
+Trees are a data structure used to store and represent information in a hierarchical manner. Imagine an upside-down tree—we won’t worry about the roots. Instead, we’ll focus on what’s above ground.
+
+At the top, the structure starts with a single unit, known as the trunk. From there, it splits into two or more branches, and those branches continue splitting until they reach the leaves. Each split represents a relationship between elements, with the trunk being the starting point (or root node, conceptually), the branches representing intermediate connections (nodes), and the leaves being the final elements (or child nodes).
+
+However, in C#, and most computer science visualizations, trees are typically drawn with the root (trunk) at the top and the leaves at the bottom. This flipped representation makes it easier to visualize relationships, traversal patterns, and hierarchical dependencies within a program.
+
+Remember, in this visual, we are not concerned with the actual roots of a tree; we are simply using this analogy to understand how tree structures function in programming.
+
+![Alt text](C:\Users\young\OneDrive\Documents\CSE%20212%20coding\Week%2012\Final\Images\Tree_explainer.jpg) 
+
+##### Image explanation
+
+The image above shows an example of a tree. The circled letters represent nodes, with **A** being the root node. **B** and **C** are parent nodes to **D, E, F,** and **G**, which makes **D, E, F,** and **G** their children. A node is considered a child if it is connected to a node above it.
+
+Additionally, **D, E, F,** and **G** are also leaves because they have no further connections beneath them. What is shown above is a Binary tree.
+
+Depending on the type of data you are working with, you might use a **binary search tree (BST)**. A BST is useful when you need to maintain an ordered structure for efficient searching, inserting, and deleting data. In a BST, each node follows a rule:
+
+- The left child contains a value smaller than its parent node.
+
+- The right child contains a value greater than its parent node.
+
+For example, if the root node is **30**, the left child could be **10**, and the right child **40**. When inserting a new value, the algorithm compares it to the existing node values and places it in the correct position—either to the left or right—based on the BST rules.
+
+---
+
+## ## **Common Operations**
+
+### **Insertion**
+
+**`Node.Insert(value)`**  
+When inserting a new value, the algorithm compares it to existing node values and places it in the correct position—left if it’s smaller, right if it’s larger. This maintains the binary search tree structure.
+
+**Time Complexity:** **O(log n)** (on a balanced tree)
+
+### **Deletion**
+
+**`remove(value)`**  
+To delete a node, there are three cases to handle:
+
+1. If the node has no children, it is simply removed.
+
+2. If the node has one child, it is replaced by that child.
+
+3. If the node has two children, it is replaced by the smallest value in its right subtree (or largest in the left subtree).
+
+**Time Complexity:** **O(log n)** (on a balanced tree)
+
+### **Searching for a Value**
+
+**`contains(value)`**  
+This checks if a specific value exists in the tree by comparing it with the nodes as it traverses downwards, following the BST rules.
+
+**Time Complexity:** **O(log n)** (on a balanced tree)
+
+### **Traversing the Tree**
+
+- **`traverse_forward`** – Visits nodes in ascending order (left-root-right).
+
+- **`traverse_reverse`** – Visits nodes in descending order (right-root-left).
+
+**Time Complexity:** **O(n)** (visits each node once)
+
+### **Tree Properties**
+
+- **`height(node)`** – Returns the height of the subtree rooted at a given node (maximum depth).
+
+- **`size()`** – Returns the total number of nodes in the tree.
+
+- **`empty()`** – Checks if the tree is empty.
+
+---
+
+## Example Problem
+
+#### Problem Statement
+
+Given a Binary Search Tree (BST), write a function to find the smallest and largest values in the tree.
+
+// I will add an image of what the tree looks like
+
+
+
+```csharp
+class TreeNode {
+    public int Value { get; }
+    public TreeNode? Left { get; set; }
+    public TreeNode? Right { get; set; }
+    
+    public TreeNode(int value) {
+        Value = value;
+        Left = null;
+        Right = null;
+    }
+}
+
+class BST {
+    public TreeNode? Root { get; private set; }
+    
+    public BST() {
+        Root = null;
+    }
+    
+    // Helper method to insert values into the BST
+    public void Insert(int value) {
+        Root = InsertRec(Root, value);
+    }
+    
+    private TreeNode InsertRec(TreeNode? node, int value) {
+        if (node == null) {
+            return new TreeNode(value);
+        }
+        
+        if (value < node.Value) {
+            node.Left = InsertRec(node.Left, value);
+        }
+        else if (value > node.Value) {
+            node.Right = InsertRec(node.Right, value);
+        }
+        
+        return node;
+    }
+    
+    // Finds the smallest value (leftmost node)
+    public int FindSmallest() {
+        if (Root == null) {
+            throw new InvalidOperationException("Tree is empty.");
+        }
+        
+        TreeNode current = Root;
+        while (current.Left != null) {
+            current = current.Left;
+        }
+        return current.Value;
+    }
+    
+    // Finds the largest value (rightmost node)
+    public int FindLargest() {
+        if (Root == null) {
+            throw new InvalidOperationException("Tree is empty.");
+        }
+        
+        TreeNode current = Root;
+        while (current.Right != null) {
+            current = current.Right;
+        }
+        return current.Value;
+    }
+    
+    // Returns a tuple (smallest, largest)
+    public (int smallest, int largest) GetMinMax() {
+        return (FindSmallest(), FindLargest());
+    }
+}
+
+class Program {
+    static void Main() {
+        BST tree = new BST();
+        tree.Insert(40);
+        tree.Insert(5);
+        tree.Insert(50);
+        tree.Insert(2);
+        tree.Insert(10);
+        tree.Insert(60);
+        
+        var (smallest, largest) = tree.GetMinMax();
+        Console.WriteLine($"Smallest value: {smallest}");  // Output: 2
+        Console.WriteLine($"Largest value: {largest}");    // Output: 60
+    }
+}
+
+```
+
+explain here
+
+```csharp
+public BST() {
+        Root = null;
+    }
+```
+
+Explain here
+
+```csharp
+public void Insert(int value) {
+        Root = InsertRec(Root, value);
+    }
+```
+
+explain here
+
+```csharp
+    private TreeNode InsertRec(TreeNode? node, int value) {
+        if (node == null) {
+            return new TreeNode(value);
+        }
+        
+        if (value < node.Value) {
+            node.Left = InsertRec(node.Left, value);
+        }
+        else if (value > node.Value) {
+            node.Right = InsertRec(node.Right, value);
+        }
+        
+        return node;
+    }
+```
+
+explain here
+
+```csharp
+    public int FindSmallest() {
+        if (Root == null) {
+            throw new InvalidOperationException("Tree is empty.");
+        }
+        
+        TreeNode current = Root;
+        while (current.Left != null) {
+            current = current.Left;
+        }
+        return current.Value;
+    }
+```
+
+explain here
+
+```csharp
+public int FindLargest() {
+        if (Root == null) {
+            throw new InvalidOperationException("Tree is empty.");
+        }
+        
+        TreeNode current = Root;
+        while (current.Right != null) {
+            current = current.Right;
+        }
+        return current.Value;
+    }
+```
+
+explain here
+
+```csharp
+    public (int smallest, int largest) GetMinMax() {
+        return (FindSmallest(), FindLargest());
+    }
+```
+
+```csharp
+class Program {
+    static void Main() {
+        BST tree = new BST();
+        tree.Insert(40);
+        tree.Insert(5);
+        tree.Insert(50);
+        tree.Insert(2);
+        tree.Insert(10);
+        tree.Insert(60);
+        
+        var (smallest, largest) = tree.GetMinMax();
+        Console.WriteLine($"Smallest value: {smallest}");  // Output: 2
+        Console.WriteLine($"Largest value: {largest}");    // Output: 60
+    }
+}
+```
+
+explain here
+
+
+
+## Problem to solve

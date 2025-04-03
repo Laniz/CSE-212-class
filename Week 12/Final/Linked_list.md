@@ -27,7 +27,7 @@ Each type of linked list has its optimal use case, depending on what you are try
 
 - **InsertHead(value)** – Adds a node at the beginning of the list. **O(1)**
 - **InsertTail(value)** – Adds a node at the end of the list. **O(1)**
-- **Insert(node, value)** – Inserts a node after a specific node. **O(1)**
+- **Insert(node, value)** – Inserts a node after a specific node. **O(n)**
 
 ### Deleting
 
@@ -119,3 +119,81 @@ class Program {
     }
 }
 ```
+
+Code explanation
+
+```csharp
+class CircularLinkedList {
+    private Node tail;
+
+    public CircularLinkedList() {
+        tail = null;
+    }
+```
+
+explain here
+
+```csharp
+ // Inserts a new node at the end
+    public void Insert(char data) {
+        Node newNode = new Node(data);
+        if (tail == null) {
+            tail = newNode;
+            tail.Next = tail; // Points to itself (circular)
+        } else {
+            newNode.Next = tail.Next;
+            tail.Next = newNode;
+            tail = newNode; // Update tail
+        }
+    }
+```
+
+explain here
+
+```csharp
+    public string Reverse() {
+        if (tail == null) return "";
+
+        Node current = tail.Next; // Start from head
+        string reversed = "";
+
+        do {
+            reversed = current.Data + reversed; // Prepend characters
+            current = current.Next;
+        } while (current != tail.Next); // Stop when we return to head
+
+        return reversed;
+    }
+```
+
+explain here
+
+```csharp
+class Program {
+    static void Main() {
+        CircularLinkedList list = new CircularLinkedList();
+        string input = "hello";
+
+        // Insert each character into the circular list
+        foreach (char c in input) {
+            list.Insert(c);
+        }
+
+        // Reverse the string using the linked list
+        string reversed = list.Reverse();
+
+        Console.WriteLine($"Original: {input}");
+        Console.WriteLine($"Reversed: {reversed}");
+    }
+}
+```
+
+explain here
+
+
+
+//add image of how the word is reversed here.
+
+
+
+### Student Problem

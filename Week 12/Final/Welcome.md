@@ -2,7 +2,7 @@
 
 Welcome to the Data Structures Tutorial. Every programmer should understand these fundamental data structures:
 
-- [Stack](stacks.md)
+- [Stack](Stacks.md)
 - [Linked List](Linked_list.md)
 - [Tree](Tree.md)
 

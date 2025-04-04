@@ -120,7 +120,7 @@ class Program {
 }
 ```
 
-Code explanation
+### Code explanation
 
 ```csharp
 class CircularLinkedList {
@@ -131,7 +131,11 @@ class CircularLinkedList {
     }
 ```
 
-explain here
+This is the start of our `CircularLinkedList` class.
+
+`tail` keeps track of the **last node** in the list.
+
+When we create a new list, we set `tail` to `null` because the list is empty at first.
 
 ```csharp
  // Inserts a new node at the end
@@ -148,7 +152,17 @@ explain here
     }
 ```
 
-explain here
+This method adds a character to the list.
+
+If the list is empty (`tail == null`), we create a node that points to itself to make it circular.
+
+If not empty, we:
+
+- Point the new node to the head (`tail.Next`).
+
+- Connect the current tail to the new node.
+
+- Update the tail to the new node.
 
 ```csharp
     public string Reverse() {
@@ -166,7 +180,13 @@ explain here
     }
 ```
 
-explain here
+This method reads the circular list and builds the reversed string.
+
+- It starts from the head (just after the tail).
+
+- It loops through each node **once** using `do-while` (because it's a circle).
+
+- For each character, it adds it to the **front** of the result string (`reversed = current.Data + reversed`), which reverses the order.
 
 ```csharp
 class Program {
@@ -188,12 +208,16 @@ class Program {
 }
 ```
 
-explain here
+This is the main program that runs everything.
 
+- We create a circular linked list.
 
+- We insert each character of the word `"hello"` into the list.
+
+- Then we call `Reverse()` to get the reversed string.
+
+- Finally, we print both the original and reversed versions.
 
 //add image of how the word is reversed here.
-
-
 
 ### Student Problem

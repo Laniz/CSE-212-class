@@ -207,6 +207,6 @@ class TextEditor
 }
 ```
 
-Once you have attempted the above problem you can find the solution by [clicking here](Stacks\Program.cs)
+Once you have attempted the above problem you can find the solution by [clicking here](Stacks)
 
 To return to the outline [click here](outline.md)

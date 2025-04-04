@@ -8,7 +8,7 @@ However, in C#, and most computer science visualizations, trees are typically dr
 
 Remember, in this visual, we are not concerned with the actual roots of a tree; we are simply using this analogy to understand how tree structures function in programming.
 
-![Alt text](C:\Users\young\OneDrive\Documents\CSE%20212%20coding\Week%2012\Final\Images\Tree_explainer.jpg) 
+![Alt text](Tree_explainer.jpg)
 
 ##### Image explanation
 

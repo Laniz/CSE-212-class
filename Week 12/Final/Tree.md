@@ -178,7 +178,7 @@ public BST() {
     }
 ```
 
-Explain here
+This is the constructor for the `BST` class. It initializes the tree with an empty root, meaning the tree starts off with no nodes.
 
 ```csharp
 public void Insert(int value) {
@@ -186,7 +186,7 @@ public void Insert(int value) {
     }
 ```
 
-explain here
+This method inserts a new value into the BST by calling a recursive helper method. It starts at the root and finds the correct location in the tree to insert the value while maintaining BST rules.
 
 ```csharp
     private TreeNode InsertRec(TreeNode? node, int value) {
@@ -205,7 +205,7 @@ explain here
     }
 ```
 
-explain here
+This recursive method does the actual insertion. If the current node is `null`, it creates a new `TreeNode`. Otherwise, it compares the value to insert with the current node's value and recursively inserts into the left or right subtree accordingly.
 
 ```csharp
     public int FindSmallest() {
@@ -221,7 +221,7 @@ explain here
     }
 ```
 
-explain here
+This method finds the smallest value in the tree by traversing left until it reaches the leftmost node, which holds the smallest value in a BST.
 
 ```csharp
 public int FindLargest() {
@@ -237,13 +237,15 @@ public int FindLargest() {
     }
 ```
 
-explain here
+This method finds the largest value by moving right until it reaches the rightmost node, which is the maximum value in the BST.
 
 ```csharp
     public (int smallest, int largest) GetMinMax() {
         return (FindSmallest(), FindLargest());
     }
 ```
+
+This method combines both FindSmallest and FindLargest methods and returns a tuple containing both values.
 
 ```csharp
 class Program {
@@ -263,6 +265,6 @@ class Program {
 }
 ```
 
-explain here
+This program demonstrates how to use the BST class. It inserts several values into the tree, finds the smallest and largest values, and prints them to the console.
 
 ## Problem to solve

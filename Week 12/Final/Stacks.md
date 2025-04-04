@@ -4,7 +4,7 @@ Stacks are a powerful tool that can be used in a variety of applications. Unders
 
 A stack follows the Last In, First Out (LIFO) principle, meaning that whatever is added last will be the first thing to be removed from the stack. You can imagine it as a pipe: you can add items to the pipe, but once an item has been added, you must remove the one above it first before accessing the ones below. This is the definition of LIFO. The image below shows how this works.
 
-![My local image](Images\Stacks_explainer_01.JPG)
+![Stacks explainer](Stacks_explainer_01.JPG)
 
 This property enables interesting functionalities. Recursion is made possible by this property, and you can also perform simple tasks like reversing the letters in a word.
 

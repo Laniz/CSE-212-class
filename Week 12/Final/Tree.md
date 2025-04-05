@@ -79,7 +79,9 @@ This checks if a specific value exists in the tree by comparing it with the node
 
 Given a Binary Search Tree (BST), write a function to find the smallest and largest values in the tree.
 
-// I will add an image of what the tree looks like
+This is what the tree looks like.
+
+![Alt text](Tree_solution_example.png)
 
 ```csharp
 class TreeNode {
@@ -268,3 +270,9 @@ class Program {
 This program demonstrates how to use the BST class. It inserts several values into the tree, finds the smallest and largest values, and prints them to the console.
 
 ## Problem to solve
+
+Write a method that **checks whether a specific value exists** in a Binary Search Tree (BST).
+
+```csharp
+
+```

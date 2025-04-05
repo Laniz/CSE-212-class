@@ -145,7 +145,7 @@ Finally, the function returns the reversed string.
 
 The image below will illustrate how this works. The example word will be **"Semaphore"**.
 
-*Another image will be added here*
+![Alt text](Stack_drawn_example.jpg)
 
 # Problem to Solve
 

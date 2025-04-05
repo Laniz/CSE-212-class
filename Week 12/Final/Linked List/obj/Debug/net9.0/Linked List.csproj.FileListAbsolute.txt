@@ -1,0 +1,15 @@
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\bin\Debug\net9.0\Linked List.exe
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\bin\Debug\net9.0\Linked List.deps.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\bin\Debug\net9.0\Linked List.runtimeconfig.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\bin\Debug\net9.0\Linked List.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\bin\Debug\net9.0\Linked List.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.AssemblyInfoInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.AssemblyInfo.cs
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.csproj.CoreCompileInputs.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.sourcelink.json
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\refint\Linked List.dll
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.pdb
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\Linked List.genruntimeconfig.cache
+C:\Users\young\OneDrive\Documents\CSE 212 coding\Week 12\Final\Linked List\obj\Debug\net9.0\ref\Linked List.dll

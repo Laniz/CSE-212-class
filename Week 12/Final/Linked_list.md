@@ -218,6 +218,99 @@ This is the main program that runs everything.
 
 - Finally, we print both the original and reversed versions.
 
-//add image of how the word is reversed here.
-
 ### Student Problem
+
+
+Write a program that uses a **circular linked list** to determine whether a word is a **palindrome**.
+
+A **palindrome** is a word that reads the same backward as forward (e.g., `madam`, `racecar`, `level`).
+
+```csharp
+using System;
+using System.Collections.Generic;
+
+class Node {
+    public char Data;
+    public Node? Next;  // Nullable
+
+    public Node(char data) {
+        Data = data;
+        Next = null;
+    }
+}
+
+class CircularLinkedList {
+    private Node? tail;  // Nullable
+
+    public CircularLinkedList() {
+        tail = null;
+    }
+
+    public void Insert(char data) {
+        Node newNode = new Node(data);
+
+        if (tail == null) {
+            tail = newNode;
+            tail.Next = tail;
+        } else {
+            newNode.Next = tail.Next;
+            tail.Next = newNode;
+            tail = newNode;
+        }
+    }
+
+    public bool IsPalindrome() {
+        if (tail == null) return true;
+
+        List<char> chars = new List<char>();
+        Node? current = tail.Next;
+
+        if (current == null) return true;
+
+        do {
+            chars.Add(current.Data);
+            current = current.Next;
+        } while (current != tail.Next);
+
+        int left = 0;
+        int right = chars.Count - 1;
+
+        while (left < right) {
+            if (chars[left] != chars[right]) return false;
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+}
+
+class Program {
+    static void Main() {
+        List<string> words = new List<string> {
+            "racecar",
+            "apple",
+            "madam",
+            "banana",
+            "level",
+            "robot",
+            "noon"
+        };
+
+        foreach (string word in words) {
+            CircularLinkedList list = new CircularLinkedList();
+
+            foreach (char c in word) {
+                list.Insert(c);
+            }
+
+            if (list.IsPalindrome()) {
+                Console.WriteLine($"{word} is a palindrome.");
+            } else {
+                Console.WriteLine($"{word} is NOT a palindrome.");
+            }
+        }
+    }
+}
+
+```

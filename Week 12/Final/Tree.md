@@ -81,7 +81,7 @@ Given a Binary Search Tree (BST), write a function to find the smallest and larg
 
 This is what the tree looks like.
 
-![Alt text](Tree_explainer.png)
+![Tree image](Tree_explainer.png)
 
 ```csharp
 class TreeNode {

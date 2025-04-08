@@ -11,7 +11,7 @@ This structure makes it easy to **insert or remove** elements without shifting o
 
 The **first node** in a linked list is called the **head**. If you have access to the head, you can traverse the entire list by following the pointers.
 
-![Chain](chain.png)
+![Chain](chain.PNG)
 
 ## Types of Linked Lists
 

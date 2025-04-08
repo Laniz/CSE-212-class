@@ -8,7 +8,7 @@ However, in C#, and most computer science visualizations, trees are typically dr
 
 Remember, in this visual, we are not concerned with the actual roots of a tree; we are simply using this analogy to understand how tree structures function in programming.
 
-![Alt text](Tree_explainer.jpg)
+![Tree image](Tree_image.png)
 
 ##### Image explanation
 
@@ -81,7 +81,7 @@ Given a Binary Search Tree (BST), write a function to find the smallest and larg
 
 This is what the tree looks like.
 
-![Tree image](Tree_explainer.png)
+![Tree image](Tree_solution_example.png)
 
 ```csharp
 class TreeNode {

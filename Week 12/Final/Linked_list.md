@@ -26,7 +26,8 @@ Each type of linked list has its optimal use case, depending on what you are try
 ### Inserting
 
 - **InsertHead(value)** – Adds a node at the beginning of the list. **O(1)**
-- **InsertTail(value)** – Adds a node at the end of the list. **O(1)**
+- **InsertTail(value)** – Adds a node at the end of the list. **O(n)** - singly linked list
+- **InsertTail(value)** – Adds a node at the end of the list. **O(1)** - doubly linked list
 - **Insert(node, value)** – Inserts a node after a specific node. **O(n)**
 
 ### Deleting
@@ -220,7 +221,6 @@ This is the main program that runs everything.
 
 ### Student Problem
 
-
 Write a program that uses a **circular linked list** to determine whether a word is a **palindrome**.
 
 A **palindrome** is a word that reads the same backward as forward (e.g., `madam`, `racecar`, `level`).
@@ -260,26 +260,7 @@ class CircularLinkedList {
     }
 
     public bool IsPalindrome() {
-        if (tail == null) return true;
-
-        List<char> chars = new List<char>();
-        Node? current = tail.Next;
-
-        if (current == null) return true;
-
-        do {
-            chars.Add(current.Data);
-            current = current.Next;
-        } while (current != tail.Next);
-
-        int left = 0;
-        int right = chars.Count - 1;
-
-        while (left < right) {
-            if (chars[left] != chars[right]) return false;
-            left++;
-            right--;
-        }
+        // add your code here
 
         return true;
     }
@@ -312,5 +293,8 @@ class Program {
         }
     }
 }
-
 ```
+
+Once you have attempted the above problem you can find the solution by [clicking here](Linked List)
+
+To return to the outline [click here](outline.md)

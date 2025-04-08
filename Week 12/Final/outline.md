@@ -5,7 +5,7 @@
 * Introduction
 * Contact Information
 
-## II. [Stack](stacks.md)
+## II. [Stack](Stacks.md)
 
 * Introduction
 * Efficiency of Common Operations

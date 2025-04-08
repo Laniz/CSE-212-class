@@ -33,7 +33,8 @@ Each type of linked list has its optimal use case, depending on what you are try
 ### Deleting
 
 - **RemoveHead()** – Removes the first node. **O(1)**
-- **RemoveTail()** – Removes the last node. **O(n)** (since traversal is needed)
+- **RemoveTail()** – Removes the last node. **O(n)** (since traversal is needed) - singly linked list
+- **RemoveTail()** – Removes the last node. **O(1)** (since traversal is not needed) - doubly linked list
 - **Remove(node)** – Removes a specific node. **O(n)** (finding the node takes O(n))
 
 ### List Operations

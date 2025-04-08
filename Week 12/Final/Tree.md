@@ -271,8 +271,65 @@ This program demonstrates how to use the BST class. It inserts several values in
 
 ## Problem to solve
 
-Write a method that **checks whether a specific value exists** in a Binary Search Tree (BST).
+Write a method that checks whether a specific value exists in a Binary Search Tree (BST after it has inserted values into a tree).
 
 ```csharp
+using System;
 
+class TreeNode {
+    public int Value { get; }
+    public TreeNode? Left { get; set; }
+    public TreeNode? Right { get; set; }
+
+    public TreeNode(int value) {
+        Value = value;
+        Left = null;
+        Right = null;
+    }
+}
+
+class BST {
+    public TreeNode? Root { get; private set; }
+
+    public BST() {
+        Root = null;
+    }
+
+    public void Insert(int value) {
+        Root = InsertRec(Root, value);
+    }
+
+    private TreeNode InsertRec(TreeNode? node, int value) {
+       // add your code here
+        return node;
+    }
+
+    public bool Contains(int value) {
+        return ContainsRec(Root, value);
+    }
+
+    private bool ContainsRec(TreeNode? node, int value) {
+      // add your code here
+        }
+    }
+}
+
+class Program {
+    static void Main() {
+        BST tree = new BST();
+        int[] values = { 40, 20, 60, 10, 30, 50, 70 };
+
+        foreach (int val in values) {
+            tree.Insert(val);
+        }
+
+        Console.WriteLine(tree.Contains(30));  // Output: True
+        Console.WriteLine(tree.Contains(25));  // Output: False
+        Console.WriteLine(tree.Contains(70));  // Output: True
+    }
+} 
 ```
+
+Once you have attempted the above problem you can find the solution by [clicking here](Tree)
+
+To return to the outline [click here](outline.md)

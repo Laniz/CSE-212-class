@@ -10,7 +10,7 @@ Remember, in this visual, we are not concerned with the actual roots of a tree; 
 
 ![Tree image](Tree_image.png)
 
-##### Image explanation
+#### Image explanation
 
 The image above shows an example of a tree. The circled letters represent nodes, with **A** being the root node. **B** and **C** are parent nodes to **D, E, F,** and **G**, which makes **D, E, F,** and **G** their children. A node is considered a child if it is connected to a node above it.
 

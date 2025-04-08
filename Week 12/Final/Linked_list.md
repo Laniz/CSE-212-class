@@ -298,6 +298,6 @@ class Program {
 }
 ```
 
-Once you have attempted the above problem you can find the solution by [clicking here](Linked List)
+Once you have attempted the above problem you can find the solution by [clicking here]("Linked List")
 
 To return to the outline [click here](outline.md)
